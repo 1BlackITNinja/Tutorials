@@ -1,0 +1,23 @@
+How to install Tarballs
+For Linux, OS X or any OS with bash
+
+
+
+1. Download File
+	Download a file in the .tar, .tar.gz, .tgz, etc. format
+
+2. tar xvfz filename.tar.gz
+	Use the tar command with x expand v verbose f file z 
+compress the resulting archive with gzip and the file name to extract the file. *Note: If there is no z in the file extension then there should be no z in the declaration.
+
+
+3. ./configure
+	Once the file has been extracted,there should be a configure file that needs to be configured. Use the ./ with configure to configure the file. 
+
+
+4. make
+	After the configuration is complete, a make file will have been created. The make command will configure the make file.
+
+5. make install
+	Make install will finish the process by placing the application in the proper location.
+
